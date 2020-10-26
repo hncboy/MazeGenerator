@@ -16,8 +16,8 @@ public class MazeGenerator {
     public static void main(String[] args) {
         // 定义迷宫矩形
         Rectangle rectangle = new Rectangle();
-        rectangle.setRoadHeight(10);
-        rectangle.setRoadWidth(10);
+        rectangle.setRoadHeight(50);
+        rectangle.setRoadWidth(50);
         // 创建迷宫
         int[][] maze = new RandomizedPrim().createMaze(rectangle);
         // 绘制迷宫
